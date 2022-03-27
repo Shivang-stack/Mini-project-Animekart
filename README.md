@@ -1,9 +1,9 @@
 # Mini-project-Animekart
 <h1> To start</h1>
-`cd backend`
+<h2>cd backend<h2>
 ```npm install```
 ```npm start```
 `cd ..`
-`cd frontend`
+<h2>cd frontend<h2>
 ```npm install```
 ```npm start```
