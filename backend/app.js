@@ -17,7 +17,7 @@ const { application } = require("express");
 
 //DB Connection
 mongoose
-  .connect("mongodb+srv://muserad:<password>@cluster0.lcttx.mongodb.net/?retryWrites=true&w=majority", {
+  .connect("mongodb+srv://muserad:Yadav3418@cluster0.lcttx.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
@@ -33,7 +33,7 @@ app.use(cors());
 
 //My Routes
 app.get("/", (req, res) => {
-  res.send("Animekart apis");
+  res.send("AnimeKart apis");
 });
 
 app.use("/api", authRoutes);

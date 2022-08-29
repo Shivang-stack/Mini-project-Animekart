@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <Base title="AnimeKart" description="Welcome to the Tshirt Store from your favourite Anime">
       <div className="row text-center">
-        <h1 className="text-white">All of Your Favourite T-Shirts</h1>
+        <h1 className="text-white">All of Your Favourite T-Shirts</h1> <br/>.
         <div className="row">
           {products.map((product, index) => {
             return (
